@@ -27,7 +27,7 @@
 
 ***
 回路図(タンク本体)
-![回路図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm_kairo.png)
+![回路図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_body_kairo.png)
 
 ---
 配線図(アーム部分)
