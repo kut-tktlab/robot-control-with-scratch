@@ -17,18 +17,34 @@
 - ワニ口クリップ ２本
 
 
-プロジェクトで使用した「TA7291P」と「ワニ口クリップ」はstmnが持ってきた物なので、研究室にあるか確認してください。
+プロジェクトで使用した「[TA7291P](http://akizukidenshi.com/catalog/g/gI-02001/)」と「ワニ口クリップ」はstmnが持ってきた物なので、研究室にあるか確認してください。
 
 ## 配線図
-実際の配線図のサンプルを下記に表示します。GPIOのピン配置やGNDの配置などは自由に変えてもらっても構いません。この後のプログラムの説明は下記の配線を元に行いますので、ピン配置を行なった場合には読み替えてください。
+実際の配線図のサンプルを下記に表示します。配線図は[fritzing](http://fritzing.org/home/)を用いて行いました。
 ***
 配線図(タンク本体)
 ![配線図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_body_img.png)
 
 ***
+回路図(タンク本体)
+![回路図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm_kairo.png)
+
+---
 配線図(アーム部分)
 ![配線図(アーム部分)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm_img.png)
 
+---
+回路図(アーム部分)
+![回路図(アーム部分)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm_kairo.png)
+
+---
+GPIOのピン配置やGNDの配置などは自由に変えてもらっても構いません。この後のプログラムの説明は下記の配線を元に行いますので、ピン配置を行なった場合には読み替えてください。また見やすさの関係上、２枚のブレッドボードに分けて配線図を書いていますが、ブレッドボードが１枚あれば配線は行えます。
+
+## 動作環境
+このプロジェクトは以下の環境で動作を行いました。
+- OS:
+- ハード:
+- プログラミング言語学習環境:
 
 ## 参考サイト
 今回のプロジェクトで参考にしたサイト、参考になりそうなサイトをまとめました。わからないことがあった際には調べてみてください。
