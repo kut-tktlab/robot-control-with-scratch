@@ -13,7 +13,7 @@
 - [抵抗 10KΩ](http://akizukidenshi.com/catalog/g/gR-25103/) ３本
 - [ブレッドボード](http://akizukidenshi.com/catalog/g/gP-05294/) １個
 - [ジャンパーワイヤ(オス-オス)](http://akizukidenshi.com/catalog/g/gC-05371/) ２本
-- [JUMP WIRE Kit - MODEL SKS-390](https://www.amazon.co.jp/%E3%82%B5%E3%83%B3%E3%83%8F%E3%83%A4%E3%83%88-SKS-390-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%83%AF%E3%82%A4%E3%83%A4%E3%82%AD%E3%83%83%E3%83%88/dp/B00J2QOV58) 黄色のジャンパ線　9本、ミノムシクリップ付き ジャンパ線４本
+- [JUMP WIRE Kit - MODEL SKS-390](https://www.amazon.co.jp/%E3%82%B5%E3%83%B3%E3%83%8F%E3%83%A4%E3%83%88-SKS-390-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%97%E3%83%AF%E3%82%A4%E3%83%A4%E3%82%AD%E3%83%83%E3%83%88/dp/B00J2QOV58) ジャンパ線　9本、ミノムシクリップ付き ジャンパ線 ４本
 - ワニ口クリップ ２本
 
 
@@ -23,11 +23,11 @@
 実際の配線図のサンプルを下記に表示します。GPIOのピン配置やGNDの配置などは自由に変えてもらっても構いません。この後のプログラムの説明は下記の配線を元に行いますので、ピン配置を行なった場合には読み替えてください。
 ***
 配線図(タンク本体)
-![配線図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_body.png)
+![配線図(タンク本体)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_body_img.png)
 
 ***
 配線図(アーム部分)
-![配線図(アーム部分)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm.png)
+![配線図(アーム部分)](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/images/oc_tank_arm_img.png)
 
 
 ## 参考サイト
