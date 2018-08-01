@@ -1,7 +1,17 @@
-# robot-contorl-with-scratch
+# robot-control-with-scratch
 **現在、このREADMEは編集中であり、未完成です**
 ## 概要
 このプロジェクトはオープンキャンパスで、「スクラッチを用いたロボット制御」の展示を行う為に必要な情報をまとめたプロジェクトです。
+
+## 動作環境
+このプロジェクトは以下の環境で動作を行いました。
+- OS:raspbian(debian 9.3)
+- ハード:RaspberryPi(モデル3 B)
+- プログラミング言語学習環境:Scratch2  
+Scratch 2 がデフォルトで入っていると思いますが、入っていない場合にはScratch １を用いてください。その際には、日本語化を行う必要があると思うので以下のサイトを参考に、日本語化させてください。
+---
+[NOOBS 1.9.2でインストールしたRaspbian (jessie) 上のScratchで日本語入力を可能にしてみた](https://neuralassembly.blogspot.com/2016/06/noobs-192raspbian-jessie-scratch.html)  
+
 ## 使用物品
 今回のプロジェクトで使用した部品の一覧は以下の通りです。
 - キーボード
@@ -40,15 +50,6 @@
 ---
 GPIOのピン配置やGNDの配置などは自由に変えてもらっても構いません。この後のプログラムの説明は下記の配線を元に行いますので、ピン配置を行なった場合には読み替えてください。また見やすさの関係上、２枚のブレッドボードに分けて配線図を書いていますが、ブレッドボードが１枚あれば配線は行えます。
 
-## 動作環境
-このプロジェクトは以下の環境で動作を行いました。
-- OS:raspbian(debian 9.3)
-- ハード:RaspberryPi(モデル3 B)
-- プログラミング言語学習環境:Scratch
-Scratch 2 がデフォルトで入っていると思いますが、入っていない場合にはScratch １を用いてください。その際には、日本語化を行う必要があると思うので以下のサイトを参考に、日本語化させてください。
----
-[NOOBS 1.9.2でインストールしたRaspbian (jessie) 上のScratchで日本語入力を可能にしてみた](https://neuralassembly.blogspot.com/2016/06/noobs-192raspbian-jessie-scratch.html)  
-
 ## プログラム
 今回のオープンキャンパスで用いたテンプレートは「[src](https://github.com/kut-tktlab/robot-contorl-with-scratch/tree/master/src)」内に置いています。[Motor_control.sb](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/src/Motor_control.sb)は Scrachのバージョンが１系列での動作を想定しており、[Motor_control.sb2](https://github.com/kut-tktlab/robot-contorl-with-scratch/blob/master/src/Motor_control.sb2)はScrachのバージョンが２系列での動作を想定しています。
 2018年度のオープンキャンパスではバージョン２系で動作をさせましたが、PWM制御を用いて速度の調整を行いたい場合やセンサなどから値を取りたい場合にはバージョン１系を使うと事をオススメします。詳細なScrachのバージョンの違いによる仕様の違いは、[Scratch(スクラッチ)の1.4と2.0の違いは？](https://coderdojo-tempaku.com/?p=512)を参考にするとわかりやすいです。
@@ -69,7 +70,7 @@ Scratch 2 がデフォルトで入っていると思いますが、入ってい�
 
 #### 動かす為の具体的な目的がなかった。  
 制御を行い飴などのお菓子を取るといったゲーム的な目的を構えたり、定義ブロックをお客さんに書いてもらう(普通のScrach班で行なったような、用意して置いたサンプルを打ってもらう形を取る)。  
-　もしくは、プログラムをしてもらうのではなく、操作できるような状態で展示を行う(操作体験できるプラレール的な感じ)。体験してもらう際に「Scrach使うとこんな事もできるんだよ。そんなScrachを触ってみない？」といった流れでScrach体験に誘導する。
+もしくは、プログラムをしてもらうのではなく、操作できるような状態で展示を行う(操作体験できるプラレール的な感じ)。体験してもらう際に「Scrach使うとこんな事もできるんだよ。そんなScrachを触ってみない？」といった流れでScrach体験に誘導する。
 
 
 ## 参考サイト
